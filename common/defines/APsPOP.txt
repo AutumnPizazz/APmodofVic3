@@ -32,3 +32,7 @@ NMilitary = {
 	MANPOWER_LOST_DUE_TO_ATTRITION_PER_WEEK_MIN = 0.01 	# The minimum percentage of manpower a unit can lose each week due to attrition
 	MANPOWER_LOST_DUE_TO_ATTRITION_PER_WEEK_MAX = 0.02 	# The maximum percentage of manpower a unit can lose each week due to attrition
 }
+
+NTechnology = {
+	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.00	# For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
+}
