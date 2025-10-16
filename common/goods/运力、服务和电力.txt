@@ -1,0 +1,26 @@
+services = {
+	texture = "gfx/interface/icons/goods_icons/services.dds"
+	cost = 30
+	category = staple
+	local = no
+
+	consumption_tax_cost = 200
+}
+
+transportation = {
+	texture = "gfx/interface/icons/goods_icons/transportation.dds"
+	cost = 30
+	category = staple
+	local = no
+
+	consumption_tax_cost = 200
+}
+
+electricity = {
+	texture = "gfx/interface/icons/goods_icons/electricity.dds"
+	cost = 30
+	category = staple
+	local = no
+
+	consumption_tax_cost = 200
+}
