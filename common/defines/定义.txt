@@ -1,0 +1,10 @@
+### Pop Growth Constants
+## Base Values per month
+@min_birthrate = 0.00300			# 原值 0.00060 （提高5倍）
+@max_birthrate = 0.00650			# 原值 0.00450 （提高44%）
+@min_mortality = 0.00030			# 原值 0.00045 （降低33%）
+@max_mortality = 0.00400			# 原值 0.00550 （降低27%）
+
+NTechnology = {
+	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.00	# For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
+}
