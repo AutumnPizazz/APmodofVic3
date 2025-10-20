@@ -8,3 +8,8 @@
 NTechnology = {
 	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.00	# For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
 }
+
+NPolitics = {
+	MARGINAL_IG_THRESHOLD = 0.005		# Interest Groups with Clout above this value are considered relevant while those below are marginal (if not also In Government)
+	MARGINAL_IG_CUTOFF = 0.005			# Interest Groups who are already relevant will only become marginal again if they drop below this value.
+}
