@@ -10,6 +10,6 @@ NTechnology = {
 }
 
 NPolitics = {
-	MARGINAL_IG_THRESHOLD = 0.005		# Interest Groups with Clout above this value are considered relevant while those below are marginal (if not also In Government)
-	MARGINAL_IG_CUTOFF = 0.005			# Interest Groups who are already relevant will only become marginal again if they drop below this value.
+	MARGINAL_IG_THRESHOLD = 0.001		# Interest Groups with Clout above this value are considered relevant while those below are marginal (if not also In Government)
+	MARGINAL_IG_CUTOFF = 0.001			# Interest Groups who are already relevant will only become marginal again if they drop below this value.
 }
